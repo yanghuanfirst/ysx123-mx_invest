@@ -23,19 +23,19 @@ composer require ysx123/mx_invest:dev-master --ignore-platform-reqs
 ### 3：app-api-doc项目增加url路由，用于混淆。修改url.php文件
 ```php
     //因为这是一个独立出去的模块。所以前面加个recipe模块名
- '/recipe/recipe/recipe-type' => "credit/syncabl1",
-    '/recipe/recipe/index' => "credit/syncabl2",
-    '/recipe/recipe/collect-list' => "credit/syncabl3",
-    '/recipe/recipe/detail' => "credit/syncabl4",
-    '/recipe/recipe/collect' => "credit/syncabl5",
-    '/recipe/recipe/upload-image' => "credit/syncabl6",
-    '/recipe/recipe/add-recipe' => "credit/syncabl7",
-    '/recipe/recipe/del-recipe' => "credit/syncabl8",
-    '/recipe/recipe/my-recipe' => "credit/syncabl9",
-    '/recipe/recipe/add-comment' => "credit/syncabl10",
-    '/recipe/recipe/comment-list' => "credit/syncabl11",
-    '/recipe/recipe/delete-comment' => "credit/syncabl12",
-    '/recipe/recipe/edit-recipe' => "credit/syncabl13",
+    "impossible/syncabl1"=>'/recipe/recipe/recipe-type',
+    "impossible/syncabl2"=>'/recipe/recipe/index' ,
+      "impossible/syncabl3"=>'/recipe/recipe/collect-list',
+      "impossible/syncabl4"=>'/recipe/recipe/detail',
+      "impossible/syncabl5"=>'/recipe/recipe/collect',
+      "impossible/syncabl6"=>'/recipe/recipe/upload-image',
+      "impossible/syncabl7"=>'/recipe/recipe/add-recipe',
+      "impossible/syncabl8"=>'/recipe/recipe/del-recipe',
+      "impossible/syncabl9"=>'/recipe/recipe/my-recipe',
+     "impossible/syncabl10"=>'/recipe/recipe/add-comment',
+     "impossible/syncabl11"=>'/recipe/recipe/comment-list',
+     "impossible/syncabl12"=>'/recipe/recipe/delete-comment',
+     "impossible/syncabl13"=>'/recipe/recipe/edit-recipe',
 ```
 ### 4:修改app-api-doc项目，增加文档，直接复制到相应项目的文档目录里。示例文档在：D:\www\ysx_www\app-api-doc\docs\ph_wealth_cash_ios\recipe.md
 
