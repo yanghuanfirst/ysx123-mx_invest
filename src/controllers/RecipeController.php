@@ -299,8 +299,8 @@ class RecipeController extends BaseController
                     $map = ['like_num' => 1];
                 }
                 Recipe::updateAllCounters($map, ['id' => $recipeId]);
-                $transaction->commit();
             }
+            $transaction->commit();
         }catch (\Exception $e){
             $transaction->rollBack();
             return Util::jsonReturn(-1, "action fail please try again");
