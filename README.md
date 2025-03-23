@@ -36,6 +36,8 @@ composer require ysx123/mx_invest:dev-master --ignore-platform-reqs
      "impossible/syncabl11"=>'/recipe/recipe/comment-list',
      "impossible/syncabl12"=>'/recipe/recipe/delete-comment',
      "impossible/syncabl13"=>'/recipe/recipe/edit-recipe',
+     "impossible/syncabl14"=>'/recipe/recipe/report-recipe',
+     "impossible/syncabl15"=>'/recipe/recipe/report-type',
 ```
 ### 4:修改app-api-doc项目，增加文档，直接复制到相应项目的文档目录里。示例文档在：D:\www\ysx_www\app-api-doc\docs\ph_wealth_cash_ios\recipe.md
 
